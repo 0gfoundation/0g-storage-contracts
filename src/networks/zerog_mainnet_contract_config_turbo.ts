@@ -1,7 +1,7 @@
 import { ZeroAddress } from "ethers";
 import { NetworkConfigs } from "../config";
 
-export const ZerogTestnetContractConfigsTurbo: NetworkConfigs = {
+export const ZerogMainnetContractConfigsTurbo: NetworkConfigs = {
     mineConfigs: {
         settings: 0, // | `settings` | `uint` | Bit flags for mining features | Bitwise flags: NO_DATA_SEAL (0x1), NO_DATA_PROOF (0x2), FIXED_DIFFICULTY (0x4) | No         |
         initDifficulty: 1000000,
@@ -15,7 +15,7 @@ export const ZerogTestnetContractConfigsTurbo: NetworkConfigs = {
         foundationAdmin: "0x711b0EcB072C27DE0e50c9944d7195A51B202522", // Foundation admin address
     },
     blocksPerEpoch: 3750,
-    firstBlock: 1,
+    firstBlock: 2386981,
     rootHistory: ZeroAddress,
     lifetimeMonth: 12,
     flowDeployDelay: 0,
